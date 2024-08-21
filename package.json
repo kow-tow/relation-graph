@@ -29,10 +29,10 @@
     }
   },
   "scripts": {
-    "build-vue2": "cd ./relation-graph-vue2 && yarn build",
-    "build-vue3": "cd ./relation-graph-vue3 && yarn build",
-    "build-react": "cd ./relation-graph-react && yarn build",
-    "build-all": "yarn build-vue2 && yarn build-vue3 && yarn build-react"
+    "build-vue2": "cd ./relation-graph-vue2 && npm run build",
+    "build-vue3": "cd ./relation-graph-vue3 && npm run build",
+    "build-react": "cd ./relation-graph-react && npm run build",
+    "build-all": "npm run build-vue2 && npm run build-vue3 && npm run build-react"
   },
   "author": "WanLian <seeksdream@qq.com>",
   "license": "MIT",
